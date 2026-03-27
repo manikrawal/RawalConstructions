@@ -365,3 +365,18 @@ input:focus, textarea:focus{
   .gallery{ grid-template-columns: 1fr; }
   .gallery img{ height: 180px; }
 }
+
+.project-card img{
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.project-card{
+  display: block;
+}
+
+.project-card h3{
+  color: var(--ink);
+}
