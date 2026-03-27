@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gallery | Rawal Constructions</title>
-  <meta name="description" content="Renovation project gallery by Rawal Constructions." />
+  <title>Projects | Rawal Constructions</title>
+  <meta name="description" content="View renovation projects by Rawal Constructions." />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
@@ -14,17 +14,28 @@
   <main class="section">
     <div class="container">
       <h1 style="margin:0 0 10px;">Project Gallery</h1>
-      <p class="lead">A few recent renovations. Replace these images with your real projects.</p>
+      <p class="lead">Click a project to see more photos.</p>
 
-      <div class="gallery" style="margin-top:14px;">
-        <a href="assets/images/project-1.jpg" aria-label="Open project photo 1">
-          <img src="assets/images/project-1.jpg" alt="Renovation project photo 1">
+      <div class="grid" style="margin-top:14px;">
+        <!-- Project 1 -->
+        <a class="card project-card" href="project-1.html">
+          <img src="assets/images/projects/project-1/01.jpg" alt="Project 1 thumbnail" />
+          <h3 style="margin-top:12px;">Project 1</h3>
+          <p class="small">Kitchen renovation (example). Click to view photos.</p>
         </a>
-        <a href="assets/images/project-2.jpg" aria-label="Open project photo 2">
-          <img src="assets/images/project-2.jpg" alt="Renovation project photo 2">
+
+        <!-- Project 2 -->
+        <a class="card project-card" href="project-2.html">
+          <img src="assets/images/projects/project-2/01.jpg" alt="Project 2 thumbnail" />
+          <h3 style="margin-top:12px;">Project 2</h3>
+          <p class="small">Bathroom renovation (example). Click to view photos.</p>
         </a>
-        <a href="assets/images/project-3.jpg" aria-label="Open project photo 3">
-          <img src="assets/images/project-3.jpg" alt="Renovation project photo 3">
+
+        <!-- Project 3 -->
+        <a class="card project-card" href="project-3.html">
+          <img src="assets/images/projects/project-3/01.jpg" alt="Project 3 thumbnail" />
+          <h3 style="margin-top:12px;">Project 3</h3>
+          <p class="small">Basement remodel (example). Click to view photos.</p>
         </a>
       </div>
 
@@ -40,8 +51,6 @@
   </main>
 
   <div id="site-footer"></div>
-
-  <script src="assets/js/include.js" defer></script>
+  <script src="assets/js/include.js"></script>
 </body>
 </html>
-``
